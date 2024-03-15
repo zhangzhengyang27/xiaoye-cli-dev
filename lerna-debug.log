@@ -1,0 +1,12 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   globs: [ 'utils/log/' ],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': '../../../../Library/pnpm/global/5/node_modules/lerna/cli.js',
+0 silly argv   pkg: 'npmlog'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/zhangzhengyang/Desktop/zhangzhengyang/mk-jiagoushi/xiaoye-cli-dev
+3 error JSONError: Unexpected token  in JSON at position 254 while parsing '{  "name": "@xiaoye-cli/log",  "versio' in utils/log/package.json
+3 error     at module.exports (/Users/zhangzhengyang/Desktop/zhangzhengyang/mk-jiagoushi/xiaoye-cli-dev/node_modules/.pnpm/parse-json@4.0.0/node_modules/parse-json/index.js:26:19)
+3 error     at parse (/Users/zhangzhengyang/Desktop/zhangzhengyang/mk-jiagoushi/xiaoye-cli-dev/node_modules/.pnpm/load-json-file@5.3.0/node_modules/load-json-file/index.js:15:9)

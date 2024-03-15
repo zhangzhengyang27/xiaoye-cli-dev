@@ -1,11 +1,11 @@
 {
-  "name": "core",
+  "name": "utils",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "zhangzhengyang <1074385735@qq.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
