@@ -6,6 +6,9 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin": {
+    "xiaoye-cli": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -23,9 +26,10 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "devDependencies": {
-    "@xiaoye-cli/log": "file:../../utils/log",
     "@xiaoye-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@xiaoye-cli/log": "file:../../utils/log",
     "colors": "^1.4.0",
+    "commander": "^6.2.1",
     "dotenv": "^8.2.0",
     "import-local": "3.0.2",
     "npmlog": "4.1.2",
